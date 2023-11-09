@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class halfupperpyramid
+public class halflowerpyramid
 {
     public static void main(String[]args)
     {
@@ -12,7 +12,7 @@ public class halfupperpyramid
         {
             for(int j=1;j<=c;j++)
             {
-                if(i<=j)
+                if(i>=j)
                 {
                     System.out.print(" *");
                 }
